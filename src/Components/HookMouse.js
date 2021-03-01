@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 function HookMouse() {
-    const [x, setX] = useState(0)
+    const [x, setX] = useState(1)
     const [y, setY] = useState(0)
 
    const logMousePosition = e => {
